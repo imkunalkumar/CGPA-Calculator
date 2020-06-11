@@ -1,0 +1,131 @@
+body{
+	background-color: white;
+
+}
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #b5e2f2 5%, #2bc2d9 100%);
+	background-color:#b5e2f2;
+	border-radius:8px;
+	border-style: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #2bc2d9 5%, #b5e2f2 100%);
+	background-color:#2bc2d9;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.cinput { 
+ border-color:#cccccc;
+ padding:13px;
+ font-size:19px; 
+ text-align:center;
+ border-radius:8px; 
+ border-style:ridge;
+ border-width:4px;
+ background-color:#aae7f0; 
+ color:#573525; 
+ box-shadow: -2px -2px 5px 0px rgba(42,42,42,.75); 
+ font-weight:bold; 
+ font-style:italic; 
+ position: static; } 
+.cinput:focus { outline:none; } 
+.select {
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    width: 18%;
+    border-radius:8px;
+
+}    .select select {
+        font-family: 'Arial';
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+        padding: 11px 19px;
+        outline: 0;
+        border: 2px solid #b09d9d;
+        border-radius: 8px;
+        background: #a7dde2;
+        color: #7b7b7b;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+
+    }
+        .select select::-ms-expand {
+            display: none;
+        }
+        .select select:hover,
+        .select select:focus {
+            color: #514b7e;
+            background: #bed4d5;
+        }
+        .select select:disabled {
+            opacity: 0.3;
+            pointer-events: none;
+        }
+.select_arrow {
+    position: absolute;
+    top: 20px;
+    right: 37px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0px 5px;
+    border-color: #7b7b7b transparent transparent transparent;
+}
+.select select:hover ~ .select_arrow,
+.select select:focus ~ .select_arrow {
+    border-top-color: #000000;
+}
+.select select:disabled ~ .select_arrow {
+    border-top-color: #cccccc;
+}
+.result{
+	position: relative;
+	top: 10px;
+	right: 32px;
+}
+.select_position{
+position: relative;
+left: 45px;
+}
+h2{
+	position: relative;
+	right: 20px;
+}
+.form-position{
+	position: absolute;
+	right: 250px;
+	top: 150px;
+}
+.animation{
+	position: absolute;
+	left: 150px;
+	top: 300px;
+
+}
+.header{
+	background-color: #9cd2f0;
+	padding: 20px 0 20px;
+	position: sticky;
+	font-family: 'Pridi', serif;
+	color: #696969;
+}
+.footer{
+	background-color: #9cd2f0;
+	padding: 10px 0 10px;
+	position: relative;
+	top: 800px;
+}
